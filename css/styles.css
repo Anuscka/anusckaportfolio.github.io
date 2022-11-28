@@ -1,0 +1,169 @@
+body {
+  background-color: #212529;
+  font-family: "EB-Garamond";
+  font-size: 20px;
+  color: #cedce5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "EB-Garamond",sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+hr {
+  border: dotted #0492c2;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto 50px auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding: 0 0 0.5%;
+}
+
+.navbar-brand {
+  font-family: "EB-Garamond";
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "EB-Garamond-Regular",sans-serif;
+  font-weight: 400;
+}
+
+/*about*/
+
+#About {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 2%;
+  padding-right: 0%;
+}
+
+/*skills*/
+
+#Skills {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #fff2f4;
+  color: black;
+}
+
+.icon {
+  text-align: center;
+}
+
+.skill-html {
+  padding-left: 90%;
+}
+
+.skill-css {
+  padding-left: 84%;
+}
+
+.skill-java {
+padding-left: 56%;
+}
+
+.skill-boot {
+  padding-left: 67%;
+}
+
+.skill-word {
+  padding-left: 73%;
+}
+
+.design {
+  padding-left: 80%;
+}
+
+/*Experience*/
+
+#Experience {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #212529;
+  color: #fce3e7;
+  padding: 5%;
+  text-align: center;
+}
+
+/*Education*/
+
+#Education {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #fff2f4;
+  color: #212529;
+  padding: 5%;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Download buttons */
+.download-buttons {
+  margin: 5% 3% 5% 0;
+  font-size: 20px;
+}
+
+#Downloads {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #212529;
+  color: #cedce5;
+  text-align: center;
+}
+
+.btn {
+  margin-left: 0%;
+  margin-top: 5px;
+}
+
+#Contact {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #fff2f4;
+  color: #212529;
+  text-align: center;
+}
+#footer {
+  background-color: #fff2f4;
+  color: #212529;
+  padding-bottom: 2%;
+}
+
+.bottom {
+  font-size: 12px;
+  text-align: center;
+}
